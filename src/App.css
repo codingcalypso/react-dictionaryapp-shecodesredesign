@@ -1,5 +1,9 @@
 body {
   background: #f9f8fe;
+  background-image: url(images/pexels-messala-ciulla-942872.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a {
@@ -7,21 +11,6 @@ a {
 }
 
 .App {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.App-header {
-  margin: 30px 0;
-}
-
-.App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
-}
-
-.App-footer {
-  text-align: center;
-  margin: 30px 0;
+  max-width: 460px;
+  margin: 50px 0 0 800px;
 }

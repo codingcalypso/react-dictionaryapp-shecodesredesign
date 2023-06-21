@@ -2,18 +2,26 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #88644E;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .Dictionary section {
-  background: white;
-  padding: 30px;
+  padding: 5px;
   border-radius: 6px;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
-  margin: 20px 0;
+  margin: 5px 0;
+}
+div.scroll {
+  margin: 5px 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 480px;
+  height: 120px;
 }
 
 .Dictionary input {
   width: 100%;
+  max-width: 500px;
   border-radius: 6px;
   padding: 6px 10px;
   color: #333;
@@ -23,4 +31,5 @@
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
+  font-style: italic;
 }
